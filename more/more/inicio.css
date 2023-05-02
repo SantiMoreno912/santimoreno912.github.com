@@ -1,0 +1,178 @@
+*{margin: 0px;
+    padding: 0px;
+}
+    
+    body{
+     background-image: url(colegio.jpg);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     margin: 0;
+     padding: 0;
+    }
+    #container{
+        width: 70%;
+        margin: 0px auto;
+    }
+    
+    header{
+        
+        top: 50%; 
+        background-color: rgb(212, 57, 57);
+        height: 150px;
+        width: 100%;
+        margin: 0%;
+        text-align: center;
+        line-height: 150px;
+        color: white;}
+    
+    nav{
+            background-color: rgb(145, 18, 18);
+            height: 40px;
+            
+        }
+    
+    nav ul { 
+    
+        list-style: none;
+        text-align: center;
+        width: 100%;
+        
+    }
+    
+    nav li{
+        display: inline-flex;
+    }
+    
+    nav a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        width: 150px;
+        display:in flex;
+    }
+    
+    nav li:hover{
+        background-color: black;
+    }
+    
+    .clearfix{
+        clear:both;
+    }
+    
+    #content{
+        border: 1.4cm ; color: black;
+        top: 10%;
+        float: left;
+        width: calc(82% - 196px);
+        background-color: rgb(236, 235, 235);
+        min-height: 333px;
+        padding: 30px;
+        text-align: center;
+        
+    }
+    aside{
+        float: left;
+        width: 28%;
+    
+    }
+    
+    .foto1{
+        width: 379px;
+        height: 400px;
+        left: 100%;
+    }
+    
+
+
+    .article{
+        color:black;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .more{
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0) ;
+
+    }
+
+
+    footer{
+    
+        top: 1000%;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        line-height: 50px;
+        height: 50px;
+    
+    }
+
+    @media  (max-width: 768px){
+.foto1{ 
+    width: 290px;
+    height: 300px;
+    left: 100%;
+    margin-top: 24%;
+ }
+    
+
+
+ header{
+    font-size: 6px;
+
+    background-color: rgb(212, 57, 57);
+    height: 20px;
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+    line-height: 20px;
+    color: white;}
+
+
+    #content{
+        border: 1.4cm ; color: black;
+       margin-top: 0%;
+        float: left;
+        width: calc(82% - 7px);
+        background-color: rgb(236, 235, 235);
+        min-height: 100px;
+        padding: 30px;
+        text-align: center;
+        }
+
+nav{
+background-color: rgb(145, 18, 18);
+height: 180px;
+}
+
+
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 239, 239);
+    padding: 10px;
+    width: 150px;
+    display:in flex;
+}
+
+.more{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0) ;
+  
+}
+footer{
+    text-align: start;
+    color: rgb(0, 0, 0);
+    line-height: 20px;
+    height: 20px;
+
+}
+
+}
+
+ 
+@media (max-width: 480px){
+
+
+
+    }
